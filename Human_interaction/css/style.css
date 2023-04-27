@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*  video back ground */
+.bg-video{
+   
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    
+    text-align: center;
+    object-position: 50% 50%;
+    
+  
+}
+/*  lookup text headers */
+.lookup{
+    top: 50%;
+    left: 740px;
+    width: 800px !important;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    line-height: 0.3;
+
+    font-family: Muli;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .75px;
+    font-weight: 300px;
+    font-size: calc(1em + 1vw);
+
+  
+    
+}
+
+/* arranging the brand at  top  right*/
+
+.main-02{
+    display: flex;
+    margin-top: -5px;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.brand{
+    width: 120px;
+    height: 20px;
+
+    top: 37px;
+    left: 80px;
+    display: flex;
+    position:absolute;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home{
+    position: fixed;
+    letter-spacing: 1.0px;
+    color: white;
+    background-color: rgb(253, 201, 42);
+    padding: 15px 15px;
+    font-weight: 900 bold;
+    justify-content: center;
+    text-rendering: optimizeLegibility;
+    font-family:sans-serif;
+    font-size: calc(1em + 1vw);
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.main-02 .lhs{
+    display: block;
+    align-items: center;
+    width: 650px; 
+    margin-left: 60px;
+    font-family: muli;
+    font-size: 20px;
+
+    overflow-x: hidden; 
+
+}
+.main-02 .line2{
+font-size: 60px;
+font-style: bold;
+font-family: muli;
+}
+/* tell button*/
+.tell-button{
+    max-width: 200px;
+    height: 45px;
+    background: rgb(251, 62, 49);
+    padding: 0px; 
+    box-shadow: none;
+}
+
+.tell{
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Muli;
+    font-size: 20px;
+    background: transparent;
+    margin-bottom: 40px;
+    color: #fff;
+
+    letter-spacing: .75px;
+    padding: 10px 10px;
+
+    border: none;
+}
+
+/* rhs  as a image*/
+
+.img1{
+  
+    width: 900px;
+    height: 650px;
+   
+}
+
+/*main  03*/
+.main-03{
+   
+
+    background: rgb(246, 246, 246);
+
+}
+
+.sub-header h1{
+    margin-top: -5px;
+    margin-left: 400px;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub-header  .decription-sub{
+    font-size: 20px;
+    margin-left: 480px;
+
+}
+
+/*  image show */
+
+.image-show{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    
+}
+
+
+
+.first-figure{
+    margin-top: 0px;
+    margin-left: 0px;
+   
+}
+
+
+ .s-01{
+     background: #fff;
+     margin-left:0px;
+     width:39%
+     
+}
+.imgg{
+    width:100%
+}
+
+.fig-caption{
+    margin-left: 28px;
+   
+}
+
+/* Awards */
+
+.header{
+    margin-left: 650px;
+}
+.tag-header{
+    margin-left: 440px;
+}
+.image-awards{
+    margin-left: 480px;
+}
+
+/*footer */
+
+.office{
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+}
+.off{
+    margin-left: -80px;
+}
+.of-header{
+    margin-left: 15px;
+    font-size: 40px;
+
+}
+
+.zagreb{
+    justify-content: center;
+}
+
+.of-00{
+    line-height: 1.0;
+
+}
+
+/* footer description */
+
+.description{
+    max-width: 58%;
+    margin-bottom: 32px;
+    letter-spacing: 0.2px;
+    line-height: .5;
+    font-size: 18px;
+}
+
+.p-01{
+margin-left: 340px;
+}
+
+.p-02{
+margin-left: 360px;
+}
